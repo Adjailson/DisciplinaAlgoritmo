@@ -13,6 +13,10 @@ public class HeapSort {
         this.vetor = vetor;
     }
     
+    public void ordenarHeap(int[] vetor){
+        this.vetor = vetor;
+    }
+    
     private int filhoEsquerda(int indice){
         return 2 * indice + 1;
     }
