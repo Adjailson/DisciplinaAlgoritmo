@@ -11,10 +11,17 @@ public class HeapSort {
     
     public void construirHeap(int[] vetor){
         this.vetor = vetor;
+        for(int i = 0; i < vetor.length-1; i++){
+            
+        }
     }
     
     public void ordenarHeap(int[] vetor){
         this.vetor = vetor;
+    }
+    
+    private void trocar(int atual, int novo){
+        
     }
     
     private int filhoEsquerda(int indice){
